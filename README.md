@@ -43,5 +43,5 @@ You can either run the above as a daemon using something like [supervisord](http
 
 ## License
 
-See [LICENSE](https://github.com/jbuitt/nwws-python-client/blob/master/LICENSE) file.
+See [LICENSE](https://github.com/jbuitt/laravel-echo-client/blob/master/LICENSE) file.
 
