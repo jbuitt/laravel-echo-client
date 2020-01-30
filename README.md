@@ -33,7 +33,7 @@ Once you have your config file ready, you can run the client using the following
 $ node echo_client.js config.json
 ```
 
-Provided that you're able to connect to the Laravel Echo Server, you will start to see events broadcasted.
+Provided that you're able to connect to the Laravel Echo Server, you should start to see events broadcasted.
 
 You can either run the above as a daemon using something like [supervisord](http://supervisord.org/) or [forever](https://www.npmjs.com/package/forever), but I will leave the setup of that as an excercise for the user.
 
