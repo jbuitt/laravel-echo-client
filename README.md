@@ -28,7 +28,7 @@ Now, create a JSON config file using the following format:
 
 The variable `[host]` is the hostname of the server where Laravel Echo Server is running. The `[tls]` variable should usually be set to `true`, unless you're testing on a local server. The variables `[channel]` and `[event]` correspond to the public channel that you subscribe to and event that you wish to listen for. The `[command]` and `[param]` variables are optional and specifies the path to a script or program that you'd like to run on event broadcast. The param is the event's parameter that you wish to pass to the command. 
 
-For example, if the event broadcast includes the keys `name` and `datetime`, and you wish to pass the 'name' key to the command '/path/to/some/script', you should specify the following:
+For example, if the event broadcast includes the keys `name` and `datetime`, and you wish to pass the `name` key to the command '/path/to/some/script', you should specify the following:
 
 ```
   "command": "/path/to/some/script",
