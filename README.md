@@ -21,7 +21,7 @@ Now, create a JSON config file using the following format:
   "tls": "[true|false]",
   "channel": "[channel]",
   "event": "[event]",
-  "command": "[pan_run]",
+  "command": "[command]",
   "param": "[param]"
 }
 ```
