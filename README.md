@@ -21,11 +21,12 @@ Now, create a JSON config file using the following format:
   "tls": "[true|false]",
   "channel": "[channel]",
   "event": "[event]",
-  "pan_run": "[pan_run]"
+  "command": "[pan_run]",
+  "param": "[param]"
 }
 ```
 
-The variable `[host]` is the hostname of the server where Laravel Echo Server is running. The `[tls]` variable should usually be set to `true`, unless you're testing on a local server. The variables `[channel]` and `[event]` correspond to the public channel that you subscribe to and event that you wish to listen for. The `[pan_run]` variable is optional and specifies the path to a script or program that you'd like to run on event broadcast. The client automatically passes the name of the event to the supplied script or program.
+The variable `[host]` is the hostname of the server where Laravel Echo Server is running. The `[tls]` variable should usually be set to `true`, unless you're testing on a local server. The variables `[channel]` and `[event]` correspond to the public channel that you subscribe to and event that you wish to listen for. The `[command]` and `[param]` variables are optional and specifies the path to a script or program that you'd like to run on event broadcast. The param is the event's parameter that you wish to pass to the command. The client automatically passes the name of the event to the supplied script or program. Please note that if you include the `command` key in your config file, you must also include `param` key.
 
 Once you have your config file ready, you can run the client using the following command:
 
