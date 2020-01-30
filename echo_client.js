@@ -35,7 +35,7 @@ console.log('Laravel Echo Client connected to channel '+config.channel+', listen
 echo.channel(config.channel)
 	.listen(config.event, (response) => {
 		console.log('name: '+response.name+', datetime: '+response.datetime);
-		if (config.pan_run && config.event_var) {
+		if (config.command && config.event_var) {
 			exec(config.command+' '+response[config.param], (error, stdout, stderr) => {
 				if (error) {
 					console.log(`error: ${error.message}`);
