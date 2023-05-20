@@ -1,6 +1,6 @@
 {
-    "name": "Laravel Echo Client",
-    "version": 1.0.0,
+    "name": "laravel-echo-client",
+    "version": "1.0.0",
     "private": false,
     "scripts": {},
     "devDependencies": {},
